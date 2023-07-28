@@ -9,6 +9,7 @@ module.exports = {
         tertiary: '#719CF7',
         contents: '#9DA1B4',
         negative: '#E11900',
+<<<<<<< HEAD
         greybox: '#919191',
       },
       fontSize: {
@@ -18,6 +19,8 @@ module.exports = {
       },
       width: {
         mySize300: '18.75rem',
+=======
+>>>>>>> 1769360b94926ff9573a7c02ed4c80c6542e58a7
       },
     },
   },
