@@ -2,11 +2,6 @@
 
 /* Document
    ========================================================================== */
-<<<<<<< HEAD
-   /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css"); */
-=======
-
->>>>>>> 1769360b94926ff9573a7c02ed4c80c6542e58a7
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -25,25 +20,11 @@ html {
  */
 
 body {
-<<<<<<< HEAD
-  margin: 0;
-  font-family: Pretendard, sans-serif;
-  max-width : 448px;
-  min-width : 320px;
-}
-/*  */
-/* @font-face { */
-  /* font-family: 'Pretendard-Regular'; */
-  /* src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); */
-  /* font-weight: 400; */
-  /* font-style: normal; */
-/* } */
-=======
   max-width: 768px;
+  min-width: 320px;
   font-family: Pretendard, sans-serif;
   margin: 0;
 }
->>>>>>> 1769360b94926ff9573a7c02ed4c80c6542e58a7
 
 /**
  * Render the `main` element consistently in IE.
