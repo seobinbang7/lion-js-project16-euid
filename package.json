@@ -7,7 +7,8 @@
     "serve:frontend": "live-server client --host=localhost --port=5500 --no-browser",
     "serve:backend": "json-server ./server/db/data.json",
     "tailwind": "tailwindcss -i ./client/css/tailwind.css -o ./client/css/main.css --watch",
-    "start": "run-p serve:* tailwind"
+    "start": "run-p serve:* tailwind",
+    "format": "prettier --write \"**/*.js\" --"
   },
   "keywords": [
     "html",
@@ -20,6 +21,9 @@
   "author": "담당자",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "json-server": "^0.17.3",
     "live-server": "^1.2.2",
     "npm-run-all": "^4.1.5",
