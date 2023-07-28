@@ -50,13 +50,13 @@ function getCss(node, prop) {
 // jQuery
 
 // 대상에게 원하는 css 속성을 추가 = set
-function setCss(node, prop, value) {
+export function setCss(node, prop, value) {
   if (typeof node === 'string') {
     node = getNode(node);
   }
-  if (!(prop in document.body.style)) {
-    syntaxError('setCSS 함수의 두 번째 인자인 prop은 유효한 css 속성이 아닙니다.');
-  }
+  //if (!(prop in document.body.style)) {
+  //  syntaxError('setCSS 함수의 두 번째 인자인 prop은 유효한 css 속성이 아닙니다.');
+  //}
   if (!value) {
     syntaxError('setCSS 함수의 세 번째 인자는 필수값 입니다.');
   }
