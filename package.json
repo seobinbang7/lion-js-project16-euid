@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "serve:frontend": "live-server client --host=localhost --port=5500 --no-browser",
-    "serve:backend": "json-server ./server/db/data.json",
+    "serve:backend": "json-server ./server/db/storyData.json",
     "tailwind": "tailwindcss -i ./client/css/tailwind.css -o ./client/css/main.css --watch",
     "start": "run-p serve:* tailwind",
     "format": "prettier --write \"**/*.js\" --"
